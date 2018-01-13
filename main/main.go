@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"./models"
-	"./util"
+	"github.com/mrRudi/Web-application-on-Go/models"
+	"github.com/mrRudi/Web-application-on-Go/util"
 )
 
 var posts map[string]*models.Post
