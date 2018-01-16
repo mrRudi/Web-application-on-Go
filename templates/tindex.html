@@ -8,7 +8,7 @@
             <h1>{{ $key }}</h1>
             {{ with $value }}
                 <h1>{{ .Id }}</h1>
-                <h1><a href="/edit?id={{ $key }}">{{ .Title }}</a>&nbsp-&nbsp<a href="/DeletePost?id={{ .Id }}">Delete</a></h1>
+                <h1><a href="/edit?id={{ $key }}">{{ .Title }}</a>&nbsp-&nbsp<a href="/DeletePost/{{ .Id }}">Delete</a></h1>
                 <h1>{{ .Content }}</h1>
             {{ end }} 
         </div>
